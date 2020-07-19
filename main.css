@@ -3,6 +3,7 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 
+/* NAVIGATION START*/
 nav {
     background-image: url(main-background.png);
     background-repeat: no-repeat;
@@ -47,3 +48,35 @@ nav {
 .nav--links a:hover {
     color: #ffffff;
 }
+/* NAVIGATION END */
+
+/* FOOTER START */
+footer {
+    background: #141516;
+    height: 100px;
+}
+
+.footer--container {
+    display: flex;
+    margin: auto;
+    width: 20%;
+}
+
+.footer--container a {
+    color: white;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.footer--container a:hover {
+    color: #0d449b;
+}
+
+.footer--copyright {
+    text-align: right;
+    color: #0d449b;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+/* FOOTER END */
