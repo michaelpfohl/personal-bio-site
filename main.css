@@ -20,16 +20,21 @@ nav {
     margin: 0;
     text-align: center;
     padding-top: 120px;
+    
+}
+
+.name--header a {
     font-size: 70px;
     text-transform: uppercase;
-    color: 	#141516;
+    text-decoration: none;
+    color: 	#161616;
     text-shadow: -1px 0 	#ffffff, 0 1px 	#ffffff, 1px 0 	#ffffff, 0 -1px #ffffff;
     letter-spacing: 1rem;
 }
 
 .nav--links {
     display: flex;
-    background: #141516;
+    background: #161616;
     list-style-type: none;
     border-radius: 40px;
     margin: auto;
@@ -57,7 +62,7 @@ nav {
 /* BIO START */
 .bio--page {
     display: flex;
-    background: #141516;
+    background: #161616;
 }
 
 .bio--pic {
@@ -68,7 +73,7 @@ nav {
 }
 
 .bio--details {
-    background: linear-gradient(to bottom, #0d449b, #141516);
+    background: linear-gradient(to bottom, #0d449b, #161616);
     width: 56%;
     margin: 2% 0 5% 2%;
 }
@@ -180,7 +185,7 @@ nav {
 
 /* FOOTER START */
 footer {
-    background: #141516;
+    background: #161616;
     height: 100px;
 }
 
