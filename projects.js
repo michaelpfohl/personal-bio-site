@@ -62,4 +62,8 @@ const buildProjects = () => {
     printToDom("main--container", domString);
 }
 
-buildProjects();
+const init = () => {
+    buildProjects();
+}
+
+init();
