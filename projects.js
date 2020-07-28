@@ -2,9 +2,18 @@
 
 const projects = [
     {
+        title: "Pies", 
+        screenshot: "project-images/pies.png", 
+        description: "Single page application styled with Bootstrap displaying cards with details for pies with buttons with filter functionality that also change the background color when pressed.",
+        technologiesUsed: "HTML / CSS / JavaScript / Bootstrap / Version Control with Github",
+        available: true,
+        url: "https://bootstrap-pies.netlify.app/", 
+        githubUrl: "https://github.com/michaelpfohl/event-listeners"
+    },
+    {
         title: "Pet Adoption", 
         screenshot: "project-images/pet-adoption.png", 
-        description: "Single page application displaying cards with details for adoptable pets with buttons with filter functionality.",
+        description: "Single page application displaying cards with details for adoptable pets with buttons with filter functionality that also change the background color when pressed.",
         technologiesUsed: "HTML / CSS / JavaScript / Version Control with Github",
         available: true,
         url: "https://pet-adoption-michael-pfohl.netlify.app/", 
@@ -53,8 +62,8 @@ const buildProjects = () => {
                            <h1 class="project--details-title">${projects[i].title}</h1>
                            <p class="project--details-description">${projects[i].description}</p>
                            <p class="project--details-technologies">${projects[i].technologiesUsed}</p>
-                           <a href="${projects[i].githubUrl}" class="project--details-link"><i class="fab fa-github"></i></a>
-                           <a href="${projects[i].url}" class="project--details-link"><i class="fas fa-eye"></i></a>
+                           <a href="${projects[i].githubUrl}" class="project--details-link" target="_blank"><i class="fab fa-github"></i></a>
+                           <a href="${projects[i].url}" class="project--details-link" target="_blank"><i class="fas fa-eye"></i></a>
                           </div>
                         </div>` 
         }
