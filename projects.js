@@ -21,7 +21,7 @@ const projects = [
     },
     {
         title: "Pies", 
-        screenshot: "project-images/pies.png", 
+        screenshot: "project-images/pies.gif", 
         description: "Single page application styled with Bootstrap displaying cards with details for pies with buttons with filter functionality that also change the background color when pressed.",
         technologiesUsed: "HTML / CSS / JavaScript / Bootstrap / Version Control with Github",
         available: true,
@@ -30,7 +30,7 @@ const projects = [
     },
     {
         title: "Pet Adoption", 
-        screenshot: "project-images/pet-adoption.png", 
+        screenshot: "project-images/pet-adoption.gif", 
         description: "Single page application displaying cards with details for adoptable pets with buttons with filter functionality that also change the background color when pressed.",
         technologiesUsed: "HTML / CSS / JavaScript / Version Control with Github",
         available: true,
